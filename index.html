@@ -1,0 +1,479 @@
+<!-- 
+    Fichier HTML
+    Maquette Expox réalisé par 
+        @Adrien PATUROT 
+            Formation de l'ACS de Besançon 2020
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquette Expox</title>
+    <link rel="stylesheet" href="default.css">
+</head>
+    <body>
+
+        <!-- +++++++++++++++++++++++++++++++++++++++++
+                -> Première partie du header contenant
+                    -> logo
+                    -> menu
+            +++++++++++++++++++++++++++++++++++++++++ -->
+            
+        <header class="header-principal">
+            <div class="header-top d-flex">
+                <!-- logo -->
+                <div class="logo">
+                    <p><img src="images/logo.png" alt="logo expox" width="78" height="26"></p>
+                </div>
+
+                <!-- menu -->
+                <nav>
+                    <ul class="d-flex ">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#footer-principal">Contact</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#" class="material-icons">search</a></li>
+                    </ul>
+                 </nav>
+            </div>
+            <hr>
+        <!-- +++++++++++++++++++++++++++++++++++++++++ 
+                -> Deuxième partie du header contenant
+                    -> Introduction
+                    -> Image en aside sur 'Data Analyst'
+            +++++++++++++++++++++++++++++++++++++++++ -->
+            <section class="header-bot">
+                <h1>We Are Pro Data Analysist for Successful Business</h1>          
+
+                <p>Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and  the stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the  level of the spectator on a hillside</p>                
+                <div>
+                    <p><a href="#" class="button-general">Get Started</a></p>
+                </div>
+            </section>          
+
+            <aside class="header-aside">
+                <p><img src="images/aside.png" alt="logo data analysist" width="593" height="576"></p>
+            </aside>
+        </header>
+
+    <!-- ************************************************************************ 
+    ************************************************************************
+    -> Partie principale 
+        -> discover
+        -> services   
+        -> about
+        -> whyus
+        -> blog
+    ************************************************************************
+    ************************************************************************ -->
+
+        <main>
+
+        <!-- +++++++++++++++++++++++++++++++++++++++++
+            -> Discover
+                ->intro
+                ->découverte des domaines de la compagnie (affichage flex)
+                    ->Digital Marketing
+                    ->Design and Code
+                    ->Creative Solutions
+            +++++++++++++++++++++++++++++++++++++++++ -->
+            <section id="discover">
+                <header>
+                    <h2>Discover the Best Values</h2>
+                </header>
+                <p class="discover-texte">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
+                    been the industry's standard dummy text ever since</p>
+
+                <div class="discover_container_row d-flex">
+                    <!-- ->Digital Marketing -->
+                    <section class="discover-service ombre2">
+                        <header>
+                            <p class="cercle color1 ombre-cercle"><img src="images/megaphone.png" alt="icone de mégaphone" width="37" height="33"></p>
+                            <h3>Digital Marketing</h3>
+                        </header>
+                        <p class="discover-service-texte">Apparently we had reached a great height in the atmosphere for the sky was a dead black had ceased to twinkle.</p>
+                        <p class="cercle-arrow"></p>
+                    </section>
+                    <!-- ->Design and Code -->
+                    <section class="discover-service ombre2">
+                        <header>
+                            <p class="cercle color2 ombre-cercle"><img src="images/computer.png" alt="icone d'ordinateur'" width="35" height="31"></p>
+                            <h3>Design and Code</h3>
+                        </header>
+                        <p class="discover-service-texte">Apparently we had reached a great height in the atmosphere for the sky was a dead black had ceased to twinkle.</p>
+                        <p class="cercle-arrow"></p>
+                    </section>
+                    <!-- ->Creative Solutions -->
+                    <section class="discover-service ombre2">
+                        <header>
+                            <p class="cercle color3 ombre-cercle"><img src="images/idea.png" alt="icone d'ampoule" width="39" height="40"></p>
+                            <h3>Creative Solutions</h3>
+                        </header>
+                        <p class="discover-service-texte">Apparently we had reached a great height in the atmosphere for the sky was a dead black had ceased to twinkle.</p>
+                        <p class="cercle-arrow"></p>
+                    </section>
+                </div>
+            </section>
+
+            <!-- +++++++++++++++++++++++++++++++++++++++++
+                -> Services
+                    ->intro
+                    ->découverte des avantages généraux de la compagnie (affichage flex)
+                +++++++++++++++++++++++++++++++++++++++++ -->
+            <div id="services" class="d-flex">
+                <div class="services-gauche">            
+                    <div class="rect-gris"></div>
+                    <div class="rect-violet"></div>
+                </div>
+
+                <section class="services-droite d-flex">
+                    <header>
+                        <h2>Why Choose Our Services for Your Business and Startup</h2>
+                    </header>
+                    <p class="texyt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                    <div class="services-option d-flex">
+                        <div class="option ombre3">
+                            <p class="petit-cercle color1 ombre-cercle"><img src="images/writing.png" alt="icone de bloc note" width="21" height="24"></p>
+                            <p class="option-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                        </div>
+                        <div class="option ombre3">
+                            <p class="petit-cercle color2 ombre-cercle"><img src="images/pie-chart.png" alt="icone de statistiques en camembert" width="25" height="25"></p>
+                            <p class="option-text">It is a long establish fact that a reader will be distract by the readable content.</p>
+                        </div>
+                        <div class="option ombre3">
+                            <p class="petit-cercle color3 ombre-cercle"><img src="images/stats.png" alt="icone de statistiques dans une loupe" width="25" height="25"></p>
+                            <p class="option-text">Lorem ipsum dolor sit amet, consectetur adipiscing ellabore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- +++++++++++++++++++++++++++++++++++++++++
+                -> About
+                    ->intro
+                    ->informations liées à la compagnie
+                +++++++++++++++++++++++++++++++++++++++++ -->
+            <div id="about" class="d-flex">
+                <section class="about-text">
+                    <!--  -->
+                    <header>
+                        <h2>Best Digital Agency Since 1998 Over the Internet</h2>
+                    </header>
+                    <p class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspe ndisse  ultrices gravida. Risus commodo viverra maecenas.</p>
+                    
+                    <p><img src="images/tick.png" alt="icone de validation dans un cercle" width="16" height="16"></p>                
+                    <p class="rappel-text">There are many variations of passages of Lorem Ipsum available,  but the majority have suffered.</p>
+
+                    <p><img src="images/tick.png" alt="icone de validation dans un cercle" width="16" height="16"></p>                
+                    <p class="rappel-text">There are many variations of passages of Lorem Ipsum available,  but the majority have suffered.</p>
+
+                    <p><img src="images/tick.png" alt="icone de validation dans un cercle" width="16" height="16"></p>                
+                    <p class="rappel-text">There are many variations of passages of Lorem Ipsum available.</p>
+
+                    <footer>
+                        <div>
+                            <a href="#" class="button-general">Learn More</a>
+                        </div> 
+                    </footer>
+                </section>
+
+                <!-- Retourne les deux rectangle -->
+                <div class="transdorm">            
+                    <div class="rect-gris"></div>
+                    <div class="rect-violet"></div>
+                </div>
+            </div>
+
+            <!-- +++++++++++++++++++++++++++++++++++++++++
+                -> Services
+                    ->intro
+                    ->découverte de 4 qualités de la compagnie (affichage flex)
+                        -> Analytics Report
+                        -> Live Supports
+                        -> Afffordable Price
+                        -> User Satisfiction
+                    ->lien
+                +++++++++++++++++++++++++++++++++++++++++ -->
+            <div id="whyus" class="d-flex">
+                <!-- D'abord cette section pour garder l'ordre sémantique des titre h3 -->
+                <section class="whyus-text">
+                    <header>
+                        <h2>Why Choose Our Services for Your Business and Startup</h2>
+                    </header>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspe ndisse ultrices gravida. Risus commodo viverra maecenas </p>
+                    <p>ccumsanamet, consectetur adipiscing elit, sed do eiusmod tempor incid
+                        idunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+                        Letraset sheets containing gravida.</p>
+                    <footer >
+                        <div>
+                            <a href="#" class="button-general">Learn More</a>
+                        </div> 
+                    </footer>
+                </section>
+                <div class="carre d-flex">
+                    <section class="whyus-service ombre3">
+                        <header>
+                            <p class="petit-cercle color1 ombre-cercle"><img src="images/stats.png" alt="icone de statistiques dans une loupe" width="25" height="25"></p>
+                            <h3>Analytics Report</h3>
+                        </header>
+                    </section>            
+                    <section class="whyus-service ombre3">
+                        <header>
+                            <p class="petit-cercle color2 ombre-cercle"><img src="images/support.png" alt="icone d'une poignée de mains" width="25" height="25"></p>
+                            <h3>Live Supports</h3>
+                        </header>
+                    </section>            
+                    <section class="whyus-service ombre3">
+                        <header>
+                            <p class="petit-cercle color4 ombre-cercle"><img src="images/percent.png" alt="icone de pourcentage dans un engrenage" width="24" height="25"></p>
+                            <h3>Affortable Price</h3>
+                        </header>
+                    </section>            
+                    <section class="whyus-service ombre3">
+                        <header>
+                            <p class="petit-cercle color3 ombre-cercle"><img src="images/satisfiction.png" alt="icone d'une personne avec un nombre d'étoiles" width="25" height="25"></p>
+                            <h3>User Satisfiction</h3>
+                        </header>
+                    </section>
+                </div>
+            </div>
+
+            <!-- +++++++++++++++++++++++++++++++++++++++++
+                -> Blog
+                    ->intro
+                    ->Liste d'articles
+                +++++++++++++++++++++++++++++++++++++++++ -->
+            <section id="blog">
+                <header>
+                    <h2>Latest Blog Posts</h2>
+                </header>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
+
+                <div class="blog-post d-flex">
+
+                    <!-- Article -->
+                    <article class="article d-flex">
+                        <div class="blog-top">
+                            <p class="flotte"><time datetime="2019-06-28"><span>28</span>June</time></p>  
+                        </div>
+                    
+                        <div class="ticket-blog d-flex">
+                            <div>
+                                <p class="blog-circle"></p>
+                                <!-- Auteur de l'article -->
+                                <address>
+                                    <p class="author">Arafat Hossain</p>
+                                </address>
+
+                                <p class="read-time">8 min to read</p>
+                            </div>   
+                            <!-- Titre et description de l'article -->
+                            <header>
+                                <h3>Here is Your Headline One</h3>
+                            </header>
+                            
+                            <p class="blog-text">Apparently we had reached a great height in the atmosphere for the sky was a dead black had ceased to twinkle.</p>
+                        
+                            <p class="read"><a href="">Read more<img src="images/arrow-petite.png" alt="icone d'une flche vers la droite" width="7" height="11"></a></p>
+                        </div>
+                    </article>
+
+                    <!-- Article -->
+                    <article class="article d-flex">
+                        <div class="blog-top">
+                            <p class="flotte"><time datetime="2019-06-28"><span>28</span>June</time></p>  
+                        </div>
+                    
+                        <div class="ticket-blog d-flex">
+                            <div>
+                                <p class="blog-circle"></p>
+                                <!-- Auteur de l'article -->
+                                <address>
+                                    <p class="author">Mumtahina Islam</p>
+                                </address>
+
+                                <p class="read-time">5 min to read</p>
+                            </div>   
+                            <!-- Titre et description de l'article -->
+                        
+                            <header>
+                                <h3>Here is Your Headline Two</h3>
+                            </header>
+                            
+                            <p class="blog-text">Apparently we had reached a great height in the atmosphere for the sky was a dead black had ceased to twinkle.</p>
+                        
+                            <p class="read"><a href="">Read more<img src="images/arrow-petite.png" alt="icone d'une flche vers la droite" width="7" height="11"></a></p>
+                        </div>
+                    </article>      
+                    
+                    <!-- Article -->
+                    <article class="article d-flex">
+                        <div class="blog-top">
+                            <p class="flotte"><time datetime="2019-06-28"><span>28</span>June</time></p>  
+                        </div>
+                    
+                        <div class="ticket-blog d-flex">
+                            <div>
+                                <p class="blog-circle"></p>
+                                <!-- Auteur de l'article -->
+                                <address>
+                                    <p class="author">Khalid Islam Rakib</p>
+                                </address>
+                                <p class="read-time">8 min to read</p>
+                            </div>   
+                            <!-- Titre et description de l'article --> 
+                            <header>
+                                <h3>Here is Your Headline Three</h3>
+                            </header>
+                            
+                            <p class="blog-text">Apparently we had reached a great height in the atmosphere for the sky was a dead black had ceased to twinkle.</p>
+                        
+                            <p class="read"><a href="">Read more<img src="images/arrow-petite.png" alt="icone d'une flche vers la droite" width="7" height="11"></a></p>
+                        </div>
+                    </article>
+                </div>  
+            </section>
+        </main>
+            <!-- +++++++++++++++++++++++++++++++++++++++++
+                -> Footer du site (informations de contacts)
+                    ->Rappel + Réseaux sociaux
+                    ->Divers liens
+                    ->Inscription newsletter
+                    ->Téléphone, mail, adresse
+                +++++++++++++++++++++++++++++++++++++++++ -->
+        <footer id="footer-principal">
+                <div class="footer-top d-flex">
+                    <div class="footer-about-info">
+                        <img src="images/logo.png" alt="logo expox" width="78" height="26">
+                        
+                        <p class="footer-intro">Lorem ipsum dolor sit amet conse ctetur adipiscing elit sed do eiusmod on tempor incididunt ut labore.</p>
+
+                        <!-- Icones des réseaux sociaux gérées par le CSS -->
+                        
+                        <ul class="social d-flex">
+                            <li><a href="#" target="_blank"><p class="bloc-social social-icon1"></p></a></li>
+                            <li><a href="#" target="_blank"><p class="bloc-social social-icon2"></p></a></li>
+                            <li><a href="#" target="_blank"><p class="bloc-social social-icon3"></p></a></li>
+                            <li><a href="#" target="_blank"><p class="bloc-social social-icon4"></p></a></li>
+                        </ul>
+ 
+                    </div>
+
+                    <!-- Listes de liens -->
+                    <section class="link">
+                            <h2>Generals</h2>
+                            <ul>
+                                <li><a href="#">Payment</a></li>
+                                <li><a href="#">Affiliate</a></li>
+                                <li><a href="#">API Supports</a></li>
+                                <li><a href="#">Customer Supports</a></li>
+                            </ul>
+                    </section>
+                    <section class="link">
+                            <h2>Supports</h2>   
+                            <ul>
+                                <li><a href="#">Team Member</a></li>
+                                <li><a href="#">People</a></li>
+                                <li><a href="#">Platform</a></li>
+                                <li><a href="#">Career</a></li>
+                            </ul>
+                    </section>
+
+                    <!-- Inscription à la newsletter -->
+                    <section class="newsletter">
+                            <h2>Subscribe Us</h2>
+                        <!-- Formulaire de la newsletter
+                                ->Page de traitement du formulaire à changer !
+                                ->l'email est obligatoire !
+                        -->
+                        <form action="/ma-page-de-traitement" method="post">
+                            <div>
+                                <label for="mail"></label>
+                                <input type="email" id="mail" name="user_mail" placeholder="Email Address" required>
+                            </div>
+                            <div class="d-flex">
+                                <button type="submit" class="button-general button-email">Submit</button>
+                            </div>
+                        </form>
+                    </section>
+                </div>
+                <hr>
+
+                <div class="footer-bot d-flex">
+                    <!-- informations de contact -->
+                    <section class="footer-about-info">
+                        <h2>Contact Information</h2>
+                        <address>
+                            <p><span class="material-icons color-primary">phone</span>+880 1234 5678</p>
+                            <!-- eMail de contact à changer si besoin -->
+                            <p><a href="mailto:contact@example.com"><span class="material-icons color-primary">email</span>contact@example.com</a></p>
+                            <p><span class="material-icons color-primary">place</span>123 level 5, New York USA</p>
+                        </address>
+                    </section>
+
+                    <!-- Listes de liens -->
+                    <section class="link">
+                            <h2>Get in Touch</h2>
+                            <ul>
+                                <li><a href="#">Payment</a></li>
+                                <li><a href="#">Affiliate</a></li>
+                                <li><a href="#">API Supports</a></li>
+                                <li><a href="#">Customer Supports</a></li>
+                            </ul>
+                    </section>
+                    <section class="link">
+                            <h2>Important Links</h2>
+                            <ul>
+                                <li><a href="#">Team Member</a></li>
+                                <li><a href="#">People</a></li>
+                                <li><a href="#">Platform</a></li>
+                                <li><a href="#">Career</a></li>
+                            </ul>
+                    </section>
+                    <!-- Instagram Feeds
+                        Le découpage de l'image est géré avec un tableau dont chaque cellule affiche une partie de l'image orginale
+                    -->
+                    <section class="insta">
+                            <h2>Instagram Feeds</h2>
+                            <a href="#insta">
+                                <div class="boxe">
+                                <!-- La description du tableau <th> n'est pas présente car elle prend de la place non nécessaire -->
+                                <table class="wrapper">
+                                    <tr>
+                                        <td class="toolbtn1 fond-decoupe"></td>
+                                        <td class="toolbtn2 fond-decoupe"></td>
+                                        <td class="toolbtn3 fond-decoupe"></td>
+                                        <td class="toolbtn4 fond-decoupe"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="toolbtn5 fond-decoupe"></td>
+                                        <td class="toolbtn6 fond-decoupe"></td>
+                                        <td class="toolbtn7 fond-decoupe"></td>
+                                        <td class="toolbtn8 fond-decoupe"></td>
+                                    </tr>
+                            
+                                </table>
+                                </div> 
+                            </a>
+                    </section>
+                </div>
+                <hr>
+                <!-- Bandeau de copyright et règles -->
+                <div class="credit d-flex">
+                    <p>Copyright © Asifuxd - 2019</p>
+                    <ul class="complements d-flex">
+                        <li><a href="#">Terms and Conditions</a></li>
+                        <li><a href="#">Privacy & Policy</a></li>
+                        <li><a href="#">Legal</a></li>
+                        <li><a href="#">Notice</a></li>
+                    </ul>
+                </div>
+        </footer>
+    </body>
+</html>
